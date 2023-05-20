@@ -1,0 +1,91 @@
+#project {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    padding: 5rem 4rem 2rem 4rem;
+}
+
+.projectDesign {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.projectTypo {
+    font-size: 4rem;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    line-height: 2.8rem;
+    opacity: 25%;
+}
+
+.projectContainerMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transform: translateY(-3rem);
+}
+
+.projectMain {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.projectText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.projectTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectNumber, .projectTitle span:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.projectTitle span:nth-child(2) {
+    font-size: 1rem;
+}
+
+.projectImage {
+    width: 450px;
+    height: 250px;
+    
+}
+
+.projectLink {
+    display: flex;
+    align-items: end;
+    height: 50vh;
+    width: 50%;
+    font-size: 1rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projectLinked {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+    transition: all 0.4s;
+    padding: 0 0.3rem;
+}
+
+.projectLinked:hover {
+    background-color: var(--text-color);
+    color: var(--primary-color);
+}

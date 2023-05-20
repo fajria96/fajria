@@ -12,11 +12,11 @@ const Navbar = () => {
               <div className="navMenuRight">
                   <a href="#home">Home</a>
                   <a href="#about">About</a>
-                  <a href="#">Project</a>
+                  <a href="#project">Project</a>
               </div>
               <div className="navMenuButton">
-                   <a href="#">Service</a>
-                  <a href="#">Contact</a>
+                   <a href="#service">Service</a>
+                  <a href="#footer">Contact</a>
             </div>
           </div>
     </nav>

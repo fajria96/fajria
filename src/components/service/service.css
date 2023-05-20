@@ -1,0 +1,58 @@
+#service {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    position: reltive;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.serviceTypo {
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: italic;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align--items: start;
+    line-height: 7rem;
+    transform: translateX(-7rem);
+}
+
+.outlineTypo {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 4px;
+}
+
+.serviceStack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.serviceTechStack {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.serviceTechStack span {
+    border: 2px solid var(--text-color);
+    padding: 0 0.5rem;
+    border-radius:25px;
+    font-size: 2rem;
+    transition: all 0.4s;
+}
+
+.serviceTechStack span:hover {
+    border: 2px solid var(--text-color);
+    color: var(--primary-color);
+    background-color: var(--text-color);
+}

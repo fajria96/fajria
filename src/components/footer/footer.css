@@ -1,0 +1,60 @@
+#footer {
+    width: 100%;
+    height: 50vh;
+    background-color: #d2d2d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footerText img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.footerLink {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.footerLink a {
+    color: var(--primary-color);
+    background-color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    transition: all 0.4s;
+    border: 1.5px solid var(--text-color);
+}
+
+.footerLink a:hover {
+    color: var(--text-color);
+    background-color: #d2d2d2;
+}
+
+.linkSocmed {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.linkSocmed a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.linkSocmed a:hover {
+    color: var(--primary-color);
+}
