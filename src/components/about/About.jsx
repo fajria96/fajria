@@ -43,7 +43,9 @@ const About = () => {
                 some of the amazing projects I've created and get a glimpse of
                 my talent and creativity in action.
               </h4>
+              <div className="btn">
               <button className="btnResume" onClick={() => {window.open("https://docs.google.com/document/d/1saKGPpx_QzuHSg_jUnVo4Ds5yncdmNOa/edit?usp=share_link&ouid=110836129932401095539&rtpof=true&sd=true")}}>Resume</button>
+              </div>
             </div>
           </div>
         </div>

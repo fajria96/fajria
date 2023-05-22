@@ -4,7 +4,7 @@
     position: reltive;
     overflow: hidden;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .serviceTypo {
-    font-size: 8rem;
+    font-size: 5rem;
     text-transform: uppercase;
     font-weight: 800;
     font-style: italic;
@@ -21,8 +21,9 @@
     display: flex;
     flex-direction: column;
     align--items: start;
-    line-height: 7rem;
+    line-height: 3.9rem;
     transform: translateX(-7rem);
+    margin-top: 5rem;
 }
 
 .outlineTypo {
@@ -30,32 +31,60 @@
     -webkit-text-stroke-width: 4px;
 }
 
-.serviceStack {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+.techsection {
+  width: 70%;
+  text-align: center;
+  background-color: var(--primary-color);
+  height: 37vh;
 }
 
-.serviceTechStack {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
+.techsection > div {
+  width: 14.6%;
+  height: 16vh;
+  max-height: 140px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 1;
+  border-radius: 20px;
+  margin: 1%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease 0s;
+  border: 2px solid var(--text-color);
+}
+.techsection > div:hover {
+  background-color: var(--primary-color);
+  overflow: hidden;
+  transform: scale(1.08);
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: 1px solid var(--text-color);
 }
 
-.serviceTechStack span {
-    border: 2px solid var(--text-color);
-    padding: 0 0.5rem;
-    border-radius:25px;
-    font-size: 2rem;
-    transition: all 0.4s;
+.techsection > div > svg {
+  font-size: 8vh;
+  color: var(--text-color);
+}
+.techsection > div > h5 {
+  position: relative;
+  top: 8px;
+  background-color: transparent;
 }
 
-.serviceTechStack span:hover {
-    border: 2px solid var(--text-color);
-    color: var(--primary-color);
-    background-color: var(--text-color);
+@media (max-width: 600px) {
+  .techsection {
+    height: 120vh;
+  }
+  .techsection > div {
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 18vh;
+  }
 }
+
 
 @media screen and (max-width: 992px) {
 }
