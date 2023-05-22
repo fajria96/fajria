@@ -89,3 +89,61 @@
     background-color: var(--text-color);
     color: var(--primary-color);
 }
+
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+    #project {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    padding: 1rem 4rem 3rem 4rem;
+}
+    .projectContainerMain {
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .projectImage {
+    width: 230px;
+    height: 150px;
+    }
+    .projectDesign {
+        position: absolute;
+        padding-top: 5.5rem;
+    }
+    .projectMain {
+        display: flex;
+        flex-direction: column;
+        gap: 5.5rem;
+    }
+    .projectTypo {
+        font-size: 3rem;
+        line-height: 2.2rem;
+
+    }
+    .projectOpening {
+        display: none;
+    }
+    .projectLink {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding: 0 0 0 0;
+        height: 13vh;
+    }
+    .projectLinked {
+        width: 100%;
+    }
+    .projectNumber, .projectTitle span:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+}
+@media screen and (max-width: 350px) {
+}

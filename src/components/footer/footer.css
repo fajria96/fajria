@@ -33,7 +33,7 @@
 .footerLink a {
     color: var(--primary-color);
     background-color: var(--text-color);
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1rem;
     border-radius: 25px;
     transition: all 0.4s;
     border: 1.5px solid var(--text-color);
@@ -57,4 +57,30 @@
 
 .linkSocmed a:hover {
     color: var(--primary-color);
+}
+
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+#footer{
+    padding-bottom: 5rem;
+}
+ .footerText{
+    font-size: 1.2rem;
+    flex-direction: column;
+ }
+ .footerLink{
+    font-size: 0.7rem;
+    align-items: center;
+    gap: 0.5rem;
+ }
+ .linkSocmed{
+    font-size: 0.7rem;
+    align-items: center;
+    gap: 0.5rem;
+ }
+}
+@media screen and (max-width: 350px) {
 }

@@ -56,3 +56,19 @@
     color: var(--primary-color);
     background-color: var(--text-color);
 }
+
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+    .serviceTypo {
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+   .serviceTechStack span {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 350px) {
+}

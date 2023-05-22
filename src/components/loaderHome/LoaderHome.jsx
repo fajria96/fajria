@@ -24,7 +24,7 @@ const LoaderHome = () => {
                           display: "none",
                       }
                   }}
-                  className="loaderText">Halo</motion.span>
+                  className="loaderText">Hello</motion.span>
               <motion.span
                   initial={{ opacity: 0 }}
                   animate={{
@@ -34,7 +34,7 @@ const LoaderHome = () => {
                           display: "none",
                       }
                   }}
-                  className="loaderText">Hello</motion.span>
+                  className="loaderText">こんにちは</motion.span>
               <motion.span
                   initial={{ opacity: 0 }}
                   animate={{
@@ -61,7 +61,7 @@ const LoaderHome = () => {
                       opacity: 1,
                       transition: { delay: 1.7 },
                   }}
-                  className="loaderText">Привет</motion.span>
+                  className="loaderText">Halo</motion.span>
           </div>
    </motion.section>
   )

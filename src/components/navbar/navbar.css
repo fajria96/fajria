@@ -1,11 +1,13 @@
 nav {
-    position: fixed;
     font-size: 1rem;
-    z-index: 4;
 }
 
 nav a {
     color: var(--text-color);
+}
+
+.iconNavbar {
+    display:none;
 }
 
 .navName {
@@ -14,6 +16,7 @@ nav a {
     flex-direction: column;
     line-hight: 0.8rem;
     padding: 0.5rem 0.5rem;
+    z-index: 4;
 }
 
 .navMenuRight {
@@ -24,6 +27,12 @@ nav a {
     flex-direction: column;
     line-height: 1.5rem;
     text-align: end;
+    z-index: 4;
+    font-weight: bold;
+}
+
+.navMenuRight a:hover {
+    color: grey;
 }
 
 .navMenuButton {
@@ -34,4 +43,77 @@ nav a {
     flex-direction: column;
     line-height: 1.5rem;
     text-align: start;
+    z-index: 4;
+    font-weight: bold;
+}
+
+.navMenuButton a:hover {
+    color: grey;
+}
+
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+/* mobile */
+@media screen and (max-width: 576px) {
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navName {
+        position: absolute;
+        left: 0.3rem;
+        font-size: 1.2rem;
+        line-height: 1.1rem;
+    }
+
+    .iconNavbar {
+        display: block;
+        font-size: 2.2rem;
+        color: var(--text-color);
+    }
+
+    .textNavbar {
+        display: none;
+    }
+
+    .navMenuRight, .navMenuButton {
+        display: flex;
+        flex-direction:row;
+        position: static;
+        gap: 0.5rem;
+        align-items: center
+    }
+
+    .containerNav {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        z-index: 4;
+        background-color: #3131315f;
+        backdrop-filter: blur(5px);
+        bottom: 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 15px;
+        gap: 0.5rem;
+
+    }
+
+    .iconActive {
+        background-color: #ffff;
+        padding: 0.3rem;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
 }
