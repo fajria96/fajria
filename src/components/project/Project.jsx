@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <section id="project">
         <div className="allProjects">
-          <h1 className="section__titledifferent">PROJECTS</h1>
+          <h1 className="section__titledifferent"><span className="different">MY </span>PROJECTS</h1>
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">

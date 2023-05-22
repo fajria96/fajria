@@ -35,7 +35,7 @@ const Service = () => {
                   <span className="outlineTypo">React & Next</span> Developer -{" "}
               </motion.span>
           </div>
-          <div className="techsection">
+          <div className="techsection" >
           <div>
             <SiJavascript />
             <h5>Javascript</h5>
