@@ -2,6 +2,7 @@ import React from 'react'
 import "./project.css";
 import Picture from "../../assets/projectPictureSushi.png";
 import PictureFashion from "../../assets/fashionCatalog.png";
+import PictureCalculator from "../../assets/calculator_img.png";
 
 const Project = () => {
   return (
@@ -51,7 +52,7 @@ const Project = () => {
           <div className="project">
             <div className="project_videocontainer">
               <div>
-                <img src={PictureFashion} alt="yukari" className="" />
+                <img src={PictureFashion} alt="fashion" className="" />
               </div>
             </div>
             <div className="project_information">
@@ -78,6 +79,44 @@ const Project = () => {
                 </a>
                 <a
                   href="https://github.com/fajria96/ecommerce-catalog.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btns onbt">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="project">
+            <div className="project_videocontainer">
+              <div>
+                <img src={PictureCalculator} alt="calculator" className="" />
+              </div>
+            </div>
+            <div className="project_information">
+              <h2>BMI Calculator</h2>
+              <p>
+                This website allows users to input their weight and height, and
+                then calculates and displays their BMI (Body Mass Index). The
+                BMI is automatically calculated when the user clicks the
+                "Calculate" button, and the result is shown on the page. The
+                design and appearance of this website are customized using
+                Javascript & CSS.
+              </p>
+              <div className="btn_container">
+                <a
+                  href="https://fajria96.github.io/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btns onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/fajria96/fajria96.github.io.git"
                   target="_blank"
                   rel="noreferrer"
                 >
