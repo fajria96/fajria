@@ -37,7 +37,7 @@ const About = () => {
                   className="btnResume"
                   onClick={() => {
                     window.open(
-                      "https://docs.google.com/document/d/1saKGPpx_QzuHSg_jUnVo4Ds5yncdmNOa/edit?usp=share_link&ouid=110836129932401095539&rtpof=true&sd=true"
+                      "https://drive.google.com/file/d/1dODFNR2Lwi_BpGZh4UgD3nvTueF3WVn6/view?usp=share_link"
                     );
                   }}
                 >
