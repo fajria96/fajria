@@ -3,6 +3,7 @@ import "./project.css";
 import Picture from "../../assets/projectPictureSushi.png";
 import PictureFashion from "../../assets/fashionCatalog.png";
 import PictureCalculator from "../../assets/calculator_img.png";
+import PictureTravel from "../../assets/touravel.jpg";
 
 const Project = () => {
   return (
@@ -89,6 +90,47 @@ const Project = () => {
               </div>
             </div>
           </div>
+          <div className="project">
+            <div className="project_videocontainer">
+              <div>
+                <img src={PictureTravel} alt="Touravel" className="" />
+              </div>
+            </div>
+            <div className="project_information">
+              <h2>Slicing Touravel UI Design</h2>
+              <p>
+                This website is the remarkable outcome of slicing the Figma
+                design, bringing it to life with seamless interactivity and
+                captivating visuals. Touravel is a modern and intuitive travel
+                website designed to provide a seamless and enjoyable experience
+                for travelers. It offers a wide range of features and
+                functionalities to help users plan, book, and explore their
+                dream destinations with ease. This website is built using HTML,
+                CSS, and Javascript.
+              </p>
+              <div className="btn_container">
+                <a
+                  href="https://touravel.vercel.app//"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btns onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/fajria96/touravel.git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btns onbt">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="project">
             <div className="project_videocontainer">
               <div>
